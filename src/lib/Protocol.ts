@@ -9,7 +9,7 @@ export class Protocol {
     static readonly sys = {
         requestAI: 'requestAI',
         enterRoom: 'enterRoom',
-        loadSgf: 'loadsgf',
+        loadMoves: 'loadMoves',
         idleAI: 'idleAI',
     }
 

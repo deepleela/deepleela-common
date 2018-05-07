@@ -10,7 +10,7 @@ export declare class Protocol {
     static readonly sys: {
         requestAI: string;
         enterRoom: string;
-        loadSgf: string;
+        loadMoves: string;
         idleAI: string;
     };
 }
