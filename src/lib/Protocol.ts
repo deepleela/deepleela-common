@@ -8,8 +8,11 @@ export class Protocol {
 
     static readonly sys = {
         requestAI: 'requestAI',
-        enterRoom: 'enterRoom',
         loadMoves: 'loadMoves',
+        createReviewRoom: 'createReviewRoom',
+        enterReviewRoom: 'enterReviewRoom',
+        leaveReviewRoom: 'leaveReviewRoom',
+        enterAIRoom: 'enterRoom',
         idleAI: 'idleAI',
     }
 

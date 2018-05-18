@@ -9,8 +9,11 @@ export interface ProtocolDef {
 export declare class Protocol {
     static readonly sys: {
         requestAI: string;
-        enterRoom: string;
         loadMoves: string;
+        createReviewRoom: string;
+        enterReviewRoom: string;
+        leaveReviewRoom: string;
+        enterAIRoom: string;
         idleAI: string;
     };
 }
