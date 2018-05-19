@@ -13,6 +13,7 @@ export declare class Protocol {
         createReviewRoom: string;
         enterReviewRoom: string;
         leaveReviewRoom: string;
+        reviewRoomStateUpdate: string;
         enterAIRoom: string;
         idleAI: string;
     };

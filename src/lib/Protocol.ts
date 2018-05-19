@@ -12,6 +12,7 @@ export class Protocol {
         createReviewRoom: 'createReviewRoom',
         enterReviewRoom: 'enterReviewRoom',
         leaveReviewRoom: 'leaveReviewRoom',
+        reviewRoomStateUpdate: 'reviewRoomStateUpdate',
         enterAIRoom: 'enterRoom',
         idleAI: 'idleAI',
     }
