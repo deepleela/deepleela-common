@@ -1,6 +1,6 @@
 
 export interface ProtocolDef {
-    type: 'gtp' | 'sys',
+    type: 'gtp' | 'sys' | 'sync',
     data: { id?: number, name: string, args?: any[] } | string;
 }
 
