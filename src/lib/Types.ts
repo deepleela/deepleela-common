@@ -3,7 +3,7 @@ export type ReviewRoom = {
     uuid: string;
     sgf: string;
     roomId: string;
-    nickname?: string;
+    owner?: string;
     roomName?: string;
 }
 
@@ -17,5 +17,8 @@ export type ReviewRoomInfo = {
 export type ReviewRoomState = {
     roomId: string;
     cursor: number;
-    variation: any[];
+    branchCursor: number;
+    historyCursor: number;
+    history: any[];
+    historySnapshots: any[];
 }

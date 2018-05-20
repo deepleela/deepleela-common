@@ -2,7 +2,7 @@ export declare type ReviewRoom = {
     uuid: string;
     sgf: string;
     roomId: string;
-    nickname?: string;
+    owner?: string;
     roomName?: string;
 };
 export declare type ReviewRoomInfo = {
@@ -14,5 +14,8 @@ export declare type ReviewRoomInfo = {
 export declare type ReviewRoomState = {
     roomId: string;
     cursor: number;
-    variation: any[];
+    branchCursor: number;
+    historyCursor: number;
+    history: any[];
+    historySnapshots: any[];
 };
