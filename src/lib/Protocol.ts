@@ -13,6 +13,7 @@ export class Protocol {
         enterReviewRoom: 'enterReviewRoom',
         leaveReviewRoom: 'leaveReviewRoom',
         reviewRoomStateUpdate: 'reviewRoomStateUpdate',
+        reviewRoomMessage: 'reviewRoomMessage',
         enterAIRoom: 'enterRoom',
         idleAI: 'idleAI',
     }

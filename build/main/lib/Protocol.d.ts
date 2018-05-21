@@ -14,6 +14,7 @@ export declare class Protocol {
         enterReviewRoom: string;
         leaveReviewRoom: string;
         reviewRoomStateUpdate: string;
+        reviewRoomMessage: string;
         enterAIRoom: string;
         idleAI: string;
     };
