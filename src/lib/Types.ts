@@ -5,6 +5,7 @@ export type ReviewRoom = {
     roomId: string;
     owner?: string;
     roomName?: string;
+    chatBroId?: string;
 }
 
 export type ReviewRoomInfo = {
@@ -12,6 +13,7 @@ export type ReviewRoomInfo = {
     roomId: string;
     owner: string;
     sgf: string;
+    chatBroId?: string;
 }
 
 export type ReviewRoomState = {
