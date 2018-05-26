@@ -24,3 +24,17 @@ export type ReviewRoomState = {
     history: any[];
     historySnapshots: any[];
 }
+
+export interface ReviewRoomMessage {
+    nickname: string;
+    message: string;
+}
+
+export interface JoinReviewRoom {
+    nickname: string;
+    count: number;
+}
+
+export interface leaveReviewRoom extends JoinReviewRoom {
+
+}
