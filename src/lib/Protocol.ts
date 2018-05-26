@@ -11,6 +11,7 @@ export class Protocol {
         loadMoves: 'loadMoves',
         createReviewRoom: 'createReviewRoom',
         enterReviewRoom: 'enterReviewRoom',
+        joinReviewRoom: 'joinReviewRoom',
         leaveReviewRoom: 'leaveReviewRoom',
         reviewRoomStateUpdate: 'reviewRoomStateUpdate',
         reviewRoomMessage: 'reviewRoomMessage',

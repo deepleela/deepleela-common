@@ -12,6 +12,7 @@ export declare class Protocol {
         loadMoves: string;
         createReviewRoom: string;
         enterReviewRoom: string;
+        joinReviewRoom: string;
         leaveReviewRoom: string;
         reviewRoomStateUpdate: string;
         reviewRoomMessage: string;
