@@ -35,6 +35,6 @@ export interface JoinReviewRoom {
     count: number;
 }
 
-export interface leaveReviewRoom extends JoinReviewRoom {
+export interface LeaveReviewRoom extends JoinReviewRoom {
 
 }
